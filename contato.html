@@ -1,117 +1,150 @@
 <!DOCTYPE html>
 <html class="light" lang="pt-BR">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Contato - Espaço Terapêutico Ser</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script src="assets/js/tailwind-config.js"></script>
-<link href="assets/css/style.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Contato - Espaço Terapêutico Ser</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Manrope:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="assets/js/tailwind-config.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" />
 </head>
+
 <body class="font-body-md text-body-md min-h-screen flex flex-col" data-page="contato">
-<!-- TopNavBar -->
-<div data-include="partials/header.html"></div>
-<!-- Main Content Canvas -->
-<main class="flex-grow pt-[120px] pb-16 md:pb-24 px-margin-mobile md:px-gutter max-w-container-max mx-auto w-full">
-<!-- Header Section -->
-<div class="mb-12 md:mb-16 text-center md:text-left">
-<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-primary mb-4">
-            Inicie sua jornada.
-        </h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-            Estamos aqui para ouvir e acolher. Preencha o formulário abaixo ou utilize nossos canais diretos de comunicação para agendar sua sessão ou tirar dúvidas.
-        </p>
-</div>
-<!-- Bento Grid Layout for Contact Area -->
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-gutter items-start">
-<!-- Left Column: Contact Info & Organic Imagery -->
-<div class="lg:col-span-5 flex flex-col gap-6 md:gap-8">
-<!-- Info Card -->
-<div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6">
-<h3 class="font-headline-md text-headline-md text-primary border-b border-surface-variant pb-4">
-                    Informações de Contato
-                </h3>
-<div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">location_on</span>
-<div>
-<p class="font-label-md text-label-md text-on-surface mb-1">Endereço</p>
-<p class="text-on-surface-variant">Av. Paulista, 1000 - Conj. 123<br/>São Paulo, SP - 01310-100</p>
-</div>
-</div>
-<div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">mail</span>
-<div>
-<p class="font-label-md text-label-md text-on-surface mb-1">E-mail</p>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-300" href="mailto:contato@espacoser.com.br">contato@espacoser.com.br</a>
-</div>
-</div>
-<div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">phone</span>
-<div>
-<p class="font-label-md text-label-md text-on-surface mb-1">Telefone</p>
-<p class="text-on-surface-variant">(11) 3000-0000</p>
-</div>
-</div>
-<div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">chat</span>
-<div>
-<p class="font-label-md text-label-md text-on-surface mb-1">WhatsApp</p>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">(11) 99999-9999</a>
-</div>
-</div>
-</div>
-<!-- Abstract Map Graphic / Aesthetic Filler -->
-<div class="relative w-full h-48 md:h-64 rounded-xl overflow-hidden bg-surface-container">
-<div class="absolute inset-0 bg-cover bg-center mix-blend-multiply opacity-80" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBXr1y0w0m05RIw4O1zvyi7l9qAqz-UPcLA7suA3-P42Fi5A-3jWvm5TsoSanq73P2e2i6H9sDleEHUbD4AxWh6ln9qjnxmhXZubLqKzaSGC_RWll4HeRjilwFOeu_RWYbvLxJKSClbzArclm9B7jUnkRudMY_uVq4fteElmUwP3c-9zpydxUJUaFQWdT9Oxc4nsZqv5X6eyR0IRCjAUKKSDin2AVNZnTPrPZNUwFsvIX61SvxIINsW')"></div>
-</div>
-</div>
-<!-- Right Column: Contact Form (Elevated Soft Card) -->
-<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
-<form action="#" class="flex flex-col gap-6" method="POST">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<!-- Nome -->
-<div>
-<label class="block font-label-md text-label-md text-on-surface-variant mb-2" for="nome">Nome Completo</label>
-<input class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300" id="nome" name="nome" placeholder="Como prefere ser chamado?" type="text"/>
-</div>
-<!-- Email -->
-<div>
-<label class="block font-label-md text-label-md text-on-surface-variant mb-2" for="email">E-mail</label>
-<input class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300" id="email" name="email" placeholder="seu@email.com" type="email"/>
-</div>
-</div>
-<!-- Assunto -->
-<div>
-<label class="block font-label-md text-label-md text-on-surface-variant mb-2" for="assunto">Assunto</label>
-<select class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300 appearance-none" id="assunto" name="assunto">
-<option disabled="" selected="" value="">Selecione um motivo...</option>
-<option value="agendamento">Agendar Primeira Consulta</option>
-<option value="duvidas">Dúvidas sobre Terapia</option>
-<option value="parcerias">Parcerias / Outros</option>
-</select>
-</div>
-<!-- Mensagem -->
-<div>
-<label class="block font-label-md text-label-md text-on-surface-variant mb-2" for="mensagem">Mensagem</label>
-<textarea class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300 resize-none" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." rows="5"></textarea>
-</div>
-<!-- Submit Button -->
-<div class="pt-4 flex justify-end">
-<button class="w-full md:w-auto bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover:opacity-80 transition-opacity duration-300 flex items-center justify-center gap-2" type="submit">
-<span>Enviar Mensagem</span>
-<span class="material-symbols-outlined text-sm">send</span>
-</button>
-</div>
-</form>
-</div>
-</div>
-</main>
-<!-- Footer -->
-<div data-include="partials/footer.html"></div>
-<script src="assets/js/include-html.js"></script>
+    <!-- TopNavBar -->
+    <div data-include="partials/header.html"></div>
+    <!-- Main Content Canvas -->
+    <main class="flex-grow pt-[120px] pb-16 md:pb-24 px-margin-mobile md:px-gutter max-w-container-max mx-auto w-full">
+        <!-- Header Section -->
+        <div class="mb-12 md:mb-16 text-center md:text-left">
+            <h1
+                class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-primary mb-4">
+                Inicie sua jornada.
+            </h1>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                Estamos aqui para ouvir e acolher. Preencha o formulário abaixo ou utilize nossos canais diretos de
+                comunicação para agendar sua sessão ou tirar dúvidas.
+            </p>
+        </div>
+        <!-- Bento Grid Layout for Contact Area -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-gutter items-start">
+            <!-- Left Column: Contact Info & Organic Imagery -->
+            <div class="lg:col-span-5 flex flex-col gap-6 md:gap-8">
+                <!-- Info Card -->
+                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6">
+                    <h3 class="font-headline-md text-headline-md text-primary border-b border-surface-variant pb-4">
+                        Informações de Contato
+                    </h3>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-secondary"
+                            style="font-variation-settings: 'FILL' 1;">location_on</span>
+                        <div>
+                            <p class="font-label-md text-label-md text-on-surface mb-1">Endereço</p>
+                            <p class="text-on-surface-variant">Av. Paulista, 1000 - Conj. 123<br />São Paulo, SP -
+                                01310-100</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-secondary"
+                            style="font-variation-settings: 'FILL' 1;">mail</span>
+                        <div>
+                            <p class="font-label-md text-label-md text-on-surface mb-1">E-mail</p>
+                            <a class="text-on-surface-variant hover:text-primary transition-colors duration-300"
+                                href="mailto:contato@espacoser.com.br">contato@espacoser.com.br</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-secondary"
+                            style="font-variation-settings: 'FILL' 1;">phone</span>
+                        <div>
+                            <p class="font-label-md text-label-md text-on-surface mb-1">Telefone</p>
+                            <p class="text-on-surface-variant">(11) 3000-0000</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-primary"
+                            style="font-variation-settings: 'FILL' 1;">chat</span>
+                        <div>
+                            <p class="font-label-md text-label-md text-on-surface mb-1">WhatsApp</p>
+                            <a class="text-on-surface-variant hover:text-primary transition-colors duration-300"
+                                href="#">(11) 99999-9999</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Abstract Map Graphic / Aesthetic Filler -->
+                <div class="relative w-full h-48 md:h-64 rounded-xl overflow-hidden bg-surface-container">
+                    <div class="absolute inset-0 bg-cover bg-center mix-blend-multiply opacity-80"
+                        style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBXr1y0w0m05RIw4O1zvyi7l9qAqz-UPcLA7suA3-P42Fi5A-3jWvm5TsoSanq73P2e2i6H9sDleEHUbD4AxWh6ln9qjnxmhXZubLqKzaSGC_RWll4HeRjilwFOeu_RWYbvLxJKSClbzArclm9B7jUnkRudMY_uVq4fteElmUwP3c-9zpydxUJUaFQWdT9Oxc4nsZqv5X6eyR0IRCjAUKKSDin2AVNZnTPrPZNUwFsvIX61SvxIINsW')">
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column: Contact Form (Elevated Soft Card) -->
+            <div
+                class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
+                <form action="#" class="flex flex-col gap-6" method="POST">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Nome -->
+                        <div>
+                            <label class="block font-label-md text-label-md text-on-surface-variant mb-2"
+                                for="nome">Nome Completo</label>
+                            <input
+                                class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300"
+                                id="nome" name="nome" placeholder="Como prefere ser chamado?" type="text" />
+                        </div>
+                        <!-- Email -->
+                        <div>
+                            <label class="block font-label-md text-label-md text-on-surface-variant mb-2"
+                                for="email">E-mail</label>
+                            <input
+                                class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300"
+                                id="email" name="email" placeholder="seu@email.com" type="email" />
+                        </div>
+                    </div>
+                    <!-- Assunto -->
+                    <div>
+                        <label class="block font-label-md text-label-md text-on-surface-variant mb-2"
+                            for="assunto">Assunto</label>
+                        <select
+                            class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300 appearance-none"
+                            id="assunto" name="assunto">
+                            <option disabled="" selected="" value="">Selecione um motivo...</option>
+                            <option value="agendamento">Agendar Primeira Consulta</option>
+                            <option value="duvidas">Dúvidas sobre Terapia</option>
+                            <option value="parcerias">Parcerias / Outros</option>
+                        </select>
+                    </div>
+                    <!-- Mensagem -->
+                    <div>
+                        <label class="block font-label-md text-label-md text-on-surface-variant mb-2"
+                            for="mensagem">Mensagem</label>
+                        <textarea
+                            class="w-full rounded-lg bg-surface-container border-transparent focus:border-primary focus:ring-1 focus:ring-primary text-on-surface px-4 py-3 transition-colors duration-300 resize-none"
+                            id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..."
+                            rows="5"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="pt-4 flex justify-end">
+                        <button
+                            class="w-full md:w-auto bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover:opacity-80 transition-opacity duration-300 flex items-center justify-center gap-2"
+                            type="submit">
+                            <span>Enviar Mensagem</span>
+                            <span class="material-symbols-outlined text-sm">send</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <div data-include="partials/footer.html"></div>
+    <script src="assets/js/include-html.js"></script>
 </body>
+
 </html>
