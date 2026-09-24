@@ -66,14 +66,22 @@ tailwind.config = {
         "section-gap": "80px"
       },
       fontFamily: {
-        "body-lg": ["Be Vietnam Pro"],
-        "headline-lg": ["Manrope"],
-        "label-md": ["Be Vietnam Pro"],
-        "headline-xl": ["Manrope"],
-        "headline-lg-mobile": ["Manrope"],
-        "body-md": ["Be Vietnam Pro"],
-        "label-sm": ["Be Vietnam Pro"],
-        "headline-md": ["Manrope"]
+        "body-lg": ["'Plus Jakarta Sans'", "sans-serif"],
+        "headline-lg": ["'Fraunces'", "serif"],
+        "label-md": ["'Plus Jakarta Sans'", "sans-serif"],
+        "headline-xl": ["'Fraunces'", "serif"],
+        "headline-lg-mobile": ["'Fraunces'", "serif"],
+        "body-md": ["'Plus Jakarta Sans'", "sans-serif"],
+        "label-sm": ["'Plus Jakarta Sans'", "sans-serif"],
+        "headline-md": ["'Fraunces'", "serif"]
+      },
+      boxShadow: {
+        "soft": "0 2px 10px -2px rgba(0, 0, 40, 0.06)",
+        "card": "0 4px 20px -4px rgba(0, 0, 40, 0.08), 0 1px 3px rgba(0, 0, 40, 0.04)",
+        "card-hover": "0 20px 40px -12px rgba(0, 0, 40, 0.18), 0 2px 8px rgba(0, 0, 40, 0.06)",
+        "elevated": "0 10px 40px -8px rgba(0, 0, 40, 0.14)",
+        "nav": "0 1px 0 rgba(0, 0, 40, 0.04), 0 8px 24px -12px rgba(0, 0, 40, 0.10)",
+        "glow-primary": "0 10px 30px -6px rgba(0, 0, 76, 0.35)"
       },
       fontSize: {
         "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],

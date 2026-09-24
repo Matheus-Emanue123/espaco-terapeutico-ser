@@ -8,9 +8,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Manrope:wght@400;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <script src="assets/js/tailwind-config.js"></script>
@@ -37,11 +35,28 @@
                     <div class="flex gap-4">
                         <span
                             class="bg-surface-container px-4 py-2 rounded-full font-label-md text-label-md text-primary flex items-center gap-2">
-                            <span class="material-symbols-outlined text-sm">spa</span> Cura
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1" />
+                                <circle cx="12" cy="8" r="2" />
+                                <path d="M12 10v12" />
+                                <path d="M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z" />
+                                <path d="M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z" />
+                            </svg>
+                            Cura
                         </span>
                         <span
                             class="bg-surface-container px-4 py-2 rounded-full font-label-md text-label-md text-primary flex items-center gap-2">
-                            <span class="material-symbols-outlined text-sm">self_improvement</span> Autoconhecimento
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                    d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" />
+                            </svg>
+                            Autoconhecimento
                         </span>
                     </div>
                 </div>
@@ -106,9 +121,15 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Value 1 -->
                 <div
-                    class="bg-surface-container rounded-3xl p-8 hover:-translate-y-1 transition-transform duration-500 ease-out flex flex-col items-start">
-                    <div class="bg-surface w-12 h-12 rounded-full flex items-center justify-center mb-6 shadow-sm">
-                        <span class="material-symbols-outlined text-primary">energy_savings_leaf</span>
+                    class="card rounded-3xl p-8 flex flex-col items-start">
+                    <div class="bg-surface w-12 h-12 rounded-full flex items-center justify-center mb-6 shadow-sm text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 20a10 10 0 0010-10 25.9 25.9 0 00-1.04-7.281 1 1 0 00-1.755-.325C15.833 5.5 13 5.5 9.8 6.1A7 7 0 0011 20" />
+                            <path d="M2 21a5 5 0 012.911-4.544C7.613 15.212 8.351 15.24 11 13" />
+                        </svg>
                     </div>
                     <h3 class="font-headline-md text-headline-md text-primary mb-3">Acolhimento Orgânico</h3>
                     <p class="font-body-md text-body-md text-on-surface-variant">Respeitamos o seu tempo e o seu
@@ -117,9 +138,17 @@
                 </div>
                 <!-- Value 2 -->
                 <div
-                    class="bg-surface-container rounded-3xl p-8 hover:-translate-y-1 transition-transform duration-500 ease-out flex flex-col items-start">
-                    <div class="bg-surface w-12 h-12 rounded-full flex items-center justify-center mb-6 shadow-sm">
-                        <span class="material-symbols-outlined text-primary">balance</span>
+                    class="card rounded-3xl p-8 flex flex-col items-start">
+                    <div class="bg-surface w-12 h-12 rounded-full flex items-center justify-center mb-6 shadow-sm text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3v18" />
+                            <path d="m19 8 3 8a5 5 0 0 1-6 0zV7" />
+                            <path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1" />
+                            <path d="m5 8 3 8a5 5 0 0 1-6 0zV7" />
+                            <path d="M7 21h10" />
+                        </svg>
                     </div>
                     <h3 class="font-headline-md text-headline-md text-primary mb-3">Equilíbrio Ativo</h3>
                     <p class="font-body-md text-body-md text-on-surface-variant">Trabalhamos juntos para encontrar a
@@ -127,9 +156,20 @@
                 </div>
                 <!-- Value 3 -->
                 <div
-                    class="bg-surface-container rounded-3xl p-8 hover:-translate-y-1 transition-transform duration-500 ease-out flex flex-col items-start">
-                    <div class="bg-surface w-12 h-12 rounded-full flex items-center justify-center mb-6 shadow-sm">
-                        <span class="material-symbols-outlined text-primary">psychology</span>
+                    class="card rounded-3xl p-8 flex flex-col items-start">
+                    <div class="bg-surface w-12 h-12 rounded-full flex items-center justify-center mb-6 shadow-sm text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 18V5" />
+                            <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4" />
+                            <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5" />
+                            <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77" />
+                            <path d="M18 18a4 4 0 0 0 2-7.464" />
+                            <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517" />
+                            <path d="M6 18a4 4 0 0 1-2-7.464" />
+                            <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77" />
+                        </svg>
                     </div>
                     <h3 class="font-headline-md text-headline-md text-primary mb-3">Autoconhecimento Profundo</h3>
                     <p class="font-body-md text-body-md text-on-surface-variant">Facilitamos ferramentas e reflexões
@@ -150,7 +190,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Team Member 1 -->
                     <div
-                        class="bg-surface rounded-[2rem] overflow-hidden flex flex-col hover:shadow-sm transition-shadow duration-300">
+                        class="card rounded-[2rem] overflow-hidden flex flex-col">
                         <div class="h-80 w-full overflow-hidden">
                             <img class="w-full h-full object-cover object-center"
                                 alt="Retrato de terapeuta em consultório iluminado"
@@ -167,7 +207,7 @@
                     </div>
                     <!-- Team Member 2 -->
                     <div
-                        class="bg-surface rounded-[2rem] overflow-hidden flex flex-col hover:shadow-sm transition-shadow duration-300">
+                        class="card rounded-[2rem] overflow-hidden flex flex-col">
                         <div class="h-80 w-full overflow-hidden">
                             <img class="w-full h-full object-cover object-center"
                                 alt="Retrato de psicoterapeuta em ambiente minimalista e sereno"
@@ -182,7 +222,7 @@
                     </div>
                     <!-- Team Member 3 -->
                     <div
-                        class="bg-surface rounded-[2rem] overflow-hidden flex flex-col hover:shadow-sm transition-shadow duration-300">
+                        class="card rounded-[2rem] overflow-hidden flex flex-col">
                         <div class="h-80 w-full overflow-hidden">
                             <img class="w-full h-full object-cover object-center"
                                 alt="Retrato de facilitadora de mindfulness em ambiente iluminado"

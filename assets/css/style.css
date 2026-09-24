@@ -2,16 +2,49 @@ body {
     background-color: #f8f9fa;
     color: #191c1d;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.font-headline-lg,
+.font-headline-xl,
+.font-headline-lg-mobile,
+.font-headline-md {
+    letter-spacing: -0.015em;
 }
 
 .glass-nav {
-    background-color: rgba(248, 249, 250, 0.8);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(248, 249, 250, 0.72);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-bottom: 1px solid rgba(0, 0, 40, 0.05);
 }
 
 .glass-panel {
-    background: rgba(252, 249, 248, 0.7);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: rgba(255, 253, 252, 0.75);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 60px -15px rgba(0, 0, 40, 0.15);
+}
+
+/* Professional card treatment: soft tinted shadow, subtle border, gentle lift on hover */
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 40, 0.05);
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 40, 0.08), 0 1px 3px rgba(0, 0, 40, 0.04);
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.35s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 40, 0.18), 0 2px 8px rgba(0, 0, 40, 0.06);
+    border-color: rgba(0, 0, 40, 0.09);
+}
+
+/* Static elevated panel: same refined shadow language, no hover lift */
+.panel {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 40, 0.05);
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 40, 0.08), 0 1px 3px rgba(0, 0, 40, 0.04);
 }

@@ -8,9 +8,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Manrope:wght@400;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <script src="assets/js/tailwind-config.js"></script>
@@ -38,13 +36,18 @@
             <!-- Left Column: Contact Info & Organic Imagery -->
             <div class="lg:col-span-5 flex flex-col gap-6 md:gap-8">
                 <!-- Info Card -->
-                <div class="bg-surface-container-low rounded-xl p-8 flex flex-col gap-6">
+                <div class="panel rounded-xl p-8 flex flex-col gap-6">
                     <h3 class="font-headline-md text-headline-md text-primary border-b border-surface-variant pb-4">
                         Informações de Contato
                     </h3>
                     <div class="flex items-start gap-4">
-                        <span class="material-symbols-outlined text-secondary"
-                            style="font-variation-settings: 'FILL' 1;">location_on</span>
+                        <svg class="w-6 h-6 text-secondary shrink-0" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
                         <div>
                             <p class="font-label-md text-label-md text-on-surface mb-1">Endereço</p>
                             <p class="text-on-surface-variant">Av. Paulista, 1000 - Conj. 123<br />São Paulo, SP -
@@ -52,8 +55,12 @@
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
-                        <span class="material-symbols-outlined text-secondary"
-                            style="font-variation-settings: 'FILL' 1;">mail</span>
+                        <svg class="w-6 h-6 text-secondary shrink-0" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                            <rect height="16" rx="2" width="20" x="2" y="4" />
+                        </svg>
                         <div>
                             <p class="font-label-md text-label-md text-on-surface mb-1">E-mail</p>
                             <a class="text-on-surface-variant hover:text-primary transition-colors duration-300"
@@ -61,16 +68,24 @@
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
-                        <span class="material-symbols-outlined text-secondary"
-                            style="font-variation-settings: 'FILL' 1;">phone</span>
+                        <svg class="w-6 h-6 text-secondary shrink-0" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+                        </svg>
                         <div>
                             <p class="font-label-md text-label-md text-on-surface mb-1">Telefone</p>
                             <p class="text-on-surface-variant">(11) 3000-0000</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
-                        <span class="material-symbols-outlined text-primary"
-                            style="font-variation-settings: 'FILL' 1;">chat</span>
+                        <svg class="w-6 h-6 text-primary shrink-0" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+                        </svg>
                         <div>
                             <p class="font-label-md text-label-md text-on-surface mb-1">WhatsApp</p>
                             <a class="text-on-surface-variant hover:text-primary transition-colors duration-300"
@@ -87,7 +102,7 @@
             </div>
             <!-- Right Column: Contact Form (Elevated Soft Card) -->
             <div
-                class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
+                class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-elevated border border-outline-variant/40">
                 <form action="#" class="flex flex-col gap-6" method="POST">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <!-- Nome -->
@@ -132,10 +147,16 @@
                     <!-- Submit Button -->
                     <div class="pt-4 flex justify-end">
                         <button
-                            class="w-full md:w-auto bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover:opacity-80 transition-opacity duration-300 flex items-center justify-center gap-2"
+                            class="w-full md:w-auto bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md shadow-glow-primary hover:shadow-elevated hover:-translate-y-0.5 transition-all duration-300 ease-out flex items-center justify-center gap-2"
                             type="submit">
                             <span>Enviar Mensagem</span>
-                            <span class="material-symbols-outlined text-sm">send</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" />
+                                <path d="m21.854 2.147-10.94 10.939" />
+                            </svg>
                         </button>
                     </div>
                 </form>
